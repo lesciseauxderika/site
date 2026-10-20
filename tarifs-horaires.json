@@ -61,7 +61,6 @@
     { "jour": "Mercredi", "ouvert": false, "ouverture": null, "fermeture": null },
     { "jour": "Jeudi", "ouvert": true, "ouverture": "14:00", "fermeture": "20:00" },
     { "jour": "Vendredi", "ouvert": true, "ouverture": "09:00", "fermeture": "18:00" },
-    { "jour": "Samedi", "ouvert": true, "ouverture": "08:00", "fermeture": "16:00" },
-    { "jour": "Dimanche", "ouvert": null, "ouverture": null, "fermeture": null, "note": "Horaire non renseigné sur le site" }
+    { "jour": "Samedi", "ouvert": true, "ouverture": "08:00", "fermeture": "16:00" }
   ]
 }
