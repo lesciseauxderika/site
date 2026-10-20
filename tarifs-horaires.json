@@ -1,0 +1,67 @@
+{
+  "tarifs": {
+    "devise": "EUR",
+    "prestations": [
+      {
+        "categorie": "Enfants",
+        "prestation": "Shampoing coupe enfants - de 10 ans",
+        "prix": 12
+      },
+      {
+        "categorie": "Hommes",
+        "prestation": "Shampoing coupe homme",
+        "prix": 20
+      }
+    ],
+    "femmes": [
+      {
+        "longueur": "Cheveux courts",
+        "prestations": [
+          { "prestation": "Brushing", "prix": 20 },
+          { "prestation": "Shampoing coupe", "prix": 32 },
+          { "prestation": "Shampoing coupe couleur soin", "prix": 62 },
+          { "prestation": "Shampoing coupe mèches soin", "prix": 73 },
+          { "prestation": "Shampoing coupe mèches duo brushing soin", "prix": 115 },
+          { "prestation": "Lissage brésilien", "prix": 150 }
+        ]
+      },
+      {
+        "longueur": "Cheveux mi-longs",
+        "prestations": [
+          { "prestation": "Brushing", "prix": 30 },
+          { "prestation": "Shampoing coupe", "prix": 42 },
+          { "prestation": "Shampoing coupe couleur soin", "prix": 72 },
+          { "prestation": "Shampoing coupe mèches soin", "prix": 83 },
+          { "prestation": "Shampoing coupe mèches duo brushing soin", "prix": 125 },
+          { "prestation": "Lissage brésilien", "prix": 170 }
+        ]
+      },
+      {
+        "longueur": "Cheveux longs",
+        "prestations": [
+          { "prestation": "Brushing", "prix": 40 },
+          { "prestation": "Shampoing coupe", "prix": 52 },
+          { "prestation": "Shampoing coupe couleur soin", "prix": 82 },
+          { "prestation": "Shampoing coupe mèches soin", "prix": 93 },
+          { "prestation": "Shampoing coupe mèches duo brushing soin", "prix": 135 },
+          { "prestation": "Lissage brésilien", "prix": 190 }
+        ]
+      }
+    ],
+    "mariage": [
+      {
+        "prestation": "Chignon mariée : forfait avec 1 essai et brushing la veille",
+        "prix": 220
+      }
+    ]
+  },
+  "horaires": [
+    { "jour": "Lundi", "ouvert": true, "ouverture": "09:00", "fermeture": "18:00" },
+    { "jour": "Mardi", "ouvert": true, "ouverture": "09:00", "fermeture": "18:00" },
+    { "jour": "Mercredi", "ouvert": false, "ouverture": null, "fermeture": null },
+    { "jour": "Jeudi", "ouvert": true, "ouverture": "14:00", "fermeture": "20:00" },
+    { "jour": "Vendredi", "ouvert": true, "ouverture": "09:00", "fermeture": "18:00" },
+    { "jour": "Samedi", "ouvert": true, "ouverture": "08:00", "fermeture": "16:00" },
+    { "jour": "Dimanche", "ouvert": null, "ouverture": null, "fermeture": null, "note": "Horaire non renseigné sur le site" }
+  ]
+}

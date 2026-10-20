@@ -36,25 +36,12 @@
                     personnalité de chaque client.​</p>
             </div>
             <h2>Les tarifs</h2>
-            <div class="enfant">
-                <p> Shampoing coupe enfants - de 10 ans : 12€</p>
-                <p>Shampoing coupe homme : 19 €</p>
-                
-            </div>
+            <div class="enfant" id="tarifs-generaux" aria-live="polite"></div>
             <div class="coupe">
                 <div class="coupef">
                     <div>
                         <h3>Cheveux court</h3>
-                        <div class="court">
-                            <p> Shampoing coupe femme soin brushing : 30€</p>
-                            <p> Shampoing coupe couleur femme soin brushing :
-                                60€</p>
-                            <p> Shampoing coupe meches femme soin brushing :
-                                70€</p>
-                            <p> Shampoing coupe duo couleur femme soin brushing
-                                : 110€</p>
-                                <p>Lissage Brésilien : 150€</p>
-                        </div>
+                        <div class="court" data-tarifs-femmes="Cheveux courts" aria-live="polite"></div>
                     </div>
                     <img src="img/salon1.jpg" alt>
                 </div>
@@ -62,61 +49,24 @@
                     <div>
 
                         <h3>Cheveux mi-long</h3>
-                        <div class="court">
-                            <p> Shampoing coupe femme soin brushing : 40€</p>
-                            <p> Shampoing coupe couleur femme soin brushing :
-                                70€</p>
-                            <p> Shampoing coupe meches femme soin brushing :
-                                80€</p>
-                            <p> Shampoing coupe duo couleur femme soin brushing
-                                : 120€</p>
-                                <p>Lissage Brésilien : 170€</p>
-                        </div>
+                        <div class="court" data-tarifs-femmes="Cheveux mi-longs" aria-live="polite"></div>
                     </div>
                     <img src="img/IMG_7665.jpg" alt>
                 </div>
                 <div class="coupef">
                     <div>
                         <h3>Cheveux long</h3>
-                        <div class="court">
-                            <p> Shampoing coupe femme soin brushing : 50€</p>
-                            <p> Shampoing coupe couleur femme soin brushing :
-                                80€</p>
-                            <p> Shampoing coupe meches femme soin brushing :
-                                90€</p>
-                            <p> Shampoing coupe duo couleur femme soin brushing
-                                : 130€</p>
-                                <p>Lissage Brésilien : 190€</p>
-                        </div>
+                        <div class="court" data-tarifs-femmes="Cheveux longs" aria-live="polite"></div>
                     </div>
                     <img src="img/IMG_7670.jpg" alt>
                 </div>
             </div>
+            <div class="enfant" id="tarifs-mariage" aria-live="polite"></div>
             <div class="hoco">
                 <img src="img/ciseaux.png" alt="" class="ciseaux">
                 <div>
                     <h2>Nos Horaires</h2>
-                    <div class="horaire">
-                        <div class="jour">
-                            <p>Lundi</p>
-                            <p>Mardi</p>
-                            <p>Mercredi</p>
-                            <p>Jeudi</p>
-                            <p>Vendredi</p>
-                            <p>Samedi</p>
-
-                        </div>
-                        <div class="heure">
-                            <p>09h00- 18h00</p>
-                            <p>09h00- 18h00</p>
-                             <p>Fermé</p>
-                            <p>12h00- 20h00</p>
-                            <p>09h00- 18h00</p>
-                            <p>08h00- 16h00</p>
-
-
-                        </div>
-                    </div>
+                    <div class="horaire" id="horaires" aria-live="polite"></div>
                 </div>
                 <div id="contact">
                     <h2>Contact</h2>
@@ -190,6 +140,7 @@
             </div>
         </div>
     </div>
+    <script src="script.js" defer></script>
 </body>
 
 </html>
